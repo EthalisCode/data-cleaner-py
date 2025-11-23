@@ -1,43 +1,37 @@
-# data-cleaner
+# Data Cleaner
 
-A simple command-line data cleaning tool written in pure Python (no external dependencies).  
-It previews a CSV file, analyzes columns (missing values, unique values), and generates:
+## 🚀 Usage
 
-- A human-readable report (`report.txt`)
-- A cleaned CSV file (`cleaned_sample.csv` by default)
+From the project root:
 
-This project is focused on learning Python for data work and preparing for machine learning workflows.
+```bash
+python -m datacleaner sample.csv
+```
 
----
+This command will:
 
-## Features
+- Preview `sample.csv` in the terminal  
+- Generate `report.txt` with a full column-wise analysis  
+- Generate `cleaned_sample.csv` containing the cleaned dataset  
 
-- Preview CSV:
-  - Number of columns
-  - Number of rows (excluding header)
-  - Header row
-  - First N data rows
-
-- Column-wise analysis:
-  - Count of empty values per column
-  - Percentage of empty values
-  - Number of unique (non-empty) values
-  - Results saved into `report.txt`
-
-- Data cleaning:
-  - Automatically removes columns that have more than a configurable percentage of empty values (default: 50%)
-  - Writes a cleaned CSV file (default: `cleaned_sample.csv`)
-  - Appends a “Cleaning Summary” to `report.txt`
+You can adjust the cleaning threshold or the output filename by modifying the `clean_csv` call inside `main.py`.
 
 ---
 
-## Project Structure
+## 📦 Requirements
 
-```text
-py-data-cleaner/
-├── datacleaner/
-│   ├── __init__.py
-│   ├── __main__.py
-│   └── main.py
-├── sample.csv
-└── README.md
+- **Python 3.10+**
+- No external dependencies  
+  (Uses only Python’s standard library: `csv`, `sys`, `pathlib`)
+
+---
+
+## 🎯 Motivation
+
+This project was created as an introductory portfolio project to develop foundational skills in:
+
+- File I/O operations  
+- Working with CSV data  
+- Implementing basic data analysis logic  
+- Building command-line tools  
+- Preparing for data-oriented workflows in **Data Science** and **Machine Learning**

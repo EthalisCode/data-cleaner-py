@@ -1,6 +1,6 @@
 # Data Cleaner
 
-## 🚀 Usage
+##  Usage
 
 From the project root:
 
@@ -18,7 +18,7 @@ You can adjust the cleaning threshold or the output filename by modifying the `c
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - **Python 3.10+**
 - No external dependencies  
@@ -26,7 +26,7 @@ You can adjust the cleaning threshold or the output filename by modifying the `c
 
 ---
 
-## 🎯 Motivation
+##  Motivation
 
 This project was created as an introductory portfolio project to develop foundational skills in:
 

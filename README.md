@@ -36,6 +36,8 @@ This project was created as an introductory portfolio project to develop foundat
 - Building command-line tools  
 - Preparing for data-oriented workflows in **Data Science** and **Machine Learning**
 
+---
+
 - ## Project Structure
 
 ```text

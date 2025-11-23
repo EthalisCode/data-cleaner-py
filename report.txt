@@ -1,0 +1,25 @@
+=== CSV Analysis Report ===
+
+File: sample.csv
+
+Columns: 3
+
+Rows (excluding header): 5
+
+
+Column: name
+  Empty values: 1 (20.0%)
+  Unique values: 4
+
+Column: age
+  Empty values: 1 (20.0%)
+  Unique values: 4
+
+Column: city
+  Empty values: 1 (20.0%)
+  Unique values: 4
+
+=== Cleaning Summary ===
+Empty threshold: 50%
+Kept columns: name, age, city
+Removed columns: none

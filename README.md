@@ -35,3 +35,14 @@ This project was created as an introductory portfolio project to develop foundat
 - Implementing basic data analysis logic  
 - Building command-line tools  
 - Preparing for data-oriented workflows in **Data Science** and **Machine Learning**
+
+- ## Project Structure
+
+```text
+data-cleaner/
+├── datacleaner/
+│   ├── __init__.py
+│   ├── __main__.py
+│   └── main.py
+├── sample.csv
+└── README.md
